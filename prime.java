@@ -11,8 +11,8 @@ break;
 }
 }
 if(!f)
-System.out.ptintln("prime");
+System.out.ptintln("yes");
 else
-System.out.println("not prime");
+System.out.println("no");
 }
 }
