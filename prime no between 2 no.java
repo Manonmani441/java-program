@@ -3,21 +3,27 @@ import java.util.Scanner.java;
 class A{
 public static void main(String args[])
 {
-int n,m,i,j;
+int n,m,i,j,f=0,c=0;
 Scanner sc =new Scanner(System.in);
 n=sc.nextInt();
 m=sc.nextInt();
 for(i=n;i<=m;i++)
 {
-int c=1;
-for(j=1;j<=i/2;j++)
+f=0;
+for(j=1;j<=(i/2);j++)
 {
-c++;
+  if((i%j)==0)
+  {
+f=1
 }
+  else{
+    f=0;
+  }
 }
-if(c==2)
+if(f==0)
 {
-System.out.println(i);
+c++
 }
 }
+  System.out.println(i);
 }
